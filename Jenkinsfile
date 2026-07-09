@@ -32,6 +32,15 @@ pipeline {
             }
         }
 
+        stage('Prepare Environment') {
+            steps {
+            sh '''
+            cp /home/ubuntu/Multi-Auth/.env.docker .
+            ls -la .env*
+            '''
+            }
+        }
+
         stage('Run Docker Container') {
             steps {
                 sh '''
