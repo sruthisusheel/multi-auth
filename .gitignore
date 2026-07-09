@@ -146,3 +146,18 @@ keys/*
 # But allow documentation
 !keys/README.md
 !keys/.gitkeep
+
+# Environment files
+.env
+.env.*
+
+# RSA keys
+keys/
+jwt_private.tmp
+jwt_public.tmp
+
+# Docker
+Dockerfile.old
+
+# OS files
+.DS_Store
