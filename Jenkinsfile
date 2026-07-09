@@ -38,7 +38,7 @@ pipeline {
                     docker run -d \
                       --name $CONTAINER_NAME \
                       -p 5000:5000 \
-                      --env-file /home/ubuntu/Multi-Auth/.env.docker \
+                      --env-file /var/lib/jenkins/.env.docker \
                       $IMAGE_NAME
                 '''
             }
