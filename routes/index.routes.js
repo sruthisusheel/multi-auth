@@ -6,7 +6,7 @@ const sendResponse = require("../utils/responseHandler");
 
 // Health check route
 router.get("/", (req, res) => {
-  return sendResponse(res, 200, true, "System Works");
+  return sendResponse(res, 200, true, "System Works - Auto Deploy Test");
 });
 
 // Register auth routes
