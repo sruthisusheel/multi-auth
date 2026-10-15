@@ -3,7 +3,7 @@
 A **centralized authentication system** with a separate **HRM application**, demonstrating how multiple apps can share a single authentication service while maintaining independent databases and business logic.
 
 **Architecture:** Auth Service handles all authentication → HRM (and future apps like CRM) verify tokens locally and manage their own data.
-Note : AWS resources have been decommissioned to avoid ongoing costs, so the live deployment is no longer available
+**Note :** AWS resources have been decommissioned to avoid ongoing costs, so the live deployment is no longer available
 
 ---
 
